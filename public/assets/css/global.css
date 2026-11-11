@@ -1,0 +1,10 @@
+@import "../fonts/icomoon/style.css";
+@import url('bootstrap.min.css');
+@import url("variables.css");
+@import "reset.css";
+@import url("header.css");
+@import url('home.css');
+@import url('style.css');
+@import url('dashboard.css');
+@import url('footer.css');
+@import url('responsive.css');

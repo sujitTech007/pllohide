@@ -1,0 +1,6 @@
+[26-Aug-2026 10:27:23 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Mail as Mail because the name is already in use in /home/jgilopmpnp88/public_html/app/Http/Controllers/PagesController.php on line 21
+[03-Nov-2026 13:14:07 UTC] PHP Warning:  fsockopen(): Unable to connect to ssl://smtp.zeptomail.com:465 (Connection timed out) in /home/jgilopmpnp88/public_html/public/smtp_test.php on line 53
+[03-Nov-2026 13:30:17 UTC] PHP Warning:  fsockopen(): Unable to connect to ssl://smtp.zeptomail.com:465 (Connection timed out) in /home/jgilopmpnp88/public_html/public/smtp_test.php on line 53
+[03-Nov-2026 14:02:50 UTC] PHP Warning:  fsockopen(): Unable to connect to ssl://smtp.zeptomail.com:465 (Connection timed out) in /home/jgilopmpnp88/public_html/public/smtp_test.php on line 53
+[03-Nov-2026 16:05:46 UTC] PHP Warning:  fsockopen(): Unable to connect to ssl://smtp.zeptomail.com:465 (Connection timed out) in /home/jgilopmpnp88/public_html/public/smtp_test.php on line 53
+[03-Nov-2026 16:50:04 UTC] PHP Warning:  fsockopen(): Unable to connect to ssl://smtp.zeptomail.com:465 (Connection timed out) in /home/jgilopmpnp88/public_html/public/smtp_test.php on line 53

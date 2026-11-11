@@ -1,0 +1,401 @@
+@media (min-width: 320px) and (max-width:990px) {
+    .tabel_scoller {
+        overflow: auto;
+    }
+
+    .form_table .table tr th,
+    .form_table .table tr td {
+        white-space: nowrap;
+    }
+
+    .heading_admin h3 {
+        font-size: 18px;
+    }
+
+    .order_card {
+        padding: 30px;
+    }
+
+    .invdi_sect .box_plan {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .invdi_sect .box_plan {
+        padding: 15px;
+    }
+
+    .chat_prof_head h3 {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+
+    .card_success .bg_inner {
+        width: 100%;
+        margin: 0 15px;
+        padding: 20px;
+        margin-top: 60px;
+    }
+
+    .heading_admin {
+        padding: 12px 16px;
+    }
+
+    .heading_bx {
+        flex-wrap: wrap;
+    }
+
+    .bg_inner.bg_Create h5 {
+        font-size: 32px;
+    }
+
+    .bg_inner.bg_Create {
+        padding: 20px;
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .Profile_info {
+        grid-template-columns: auto;
+    }
+
+    .custom_modal .modal-dialog .connect_popup>h3 {
+        font-size: 24px;
+    }
+
+    .content-wrapper {
+        padding: 15px;
+    }
+
+    .dash_chat_list,
+    .Portfolio_wrapp ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .task_frm .table th {
+        font-size: 14px;
+    }
+
+    .cover_prof .cover_details .user img,
+    .cover_prof .cover_details .user {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cover_prof .cover_details .user {
+        margin-top: -40px;
+    }
+
+    .Contact_info {
+        padding: 15px;
+    }
+
+    .Portfolio_wrapp ul li {
+        margin-bottom: 20px;
+    }
+
+    .custom_modal .modal-dialog .connect_popup {
+        padding: 0;
+    }
+
+    .header_dash {
+        display: block;
+    }
+
+    .header_dash .head_title h3 {
+        font-size: 18px;
+    }
+
+    .messages_card {
+        padding: 0;
+    }
+
+    .order_card {
+        padding: 15px;
+    }
+
+    .order_card .list_order .card_ord .hd {
+        flex-wrap: wrap;
+    }
+
+    .order_card .list_order .card_ord .hd h3 {
+        margin-bottom: 15px;
+    }
+
+    .order_card .list_order .card_ord .cont_bx {
+        flex-wrap: wrap;
+    }
+
+    .order_card .list_order .card_ord .cont_bx .rgt_bx .btn {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .Invoice_wrapp {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .Invoice_wrapp p {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .header_dash .user_hd {
+        justify-content: end;
+    }
+
+    .dashboard_inner .btn_grp_com {
+        margin-top: 30px;
+    }
+
+    .dashboard_inner .btn_grp_com .btn {
+        min-width: 100%;
+        margin-top: 15px;
+    }
+
+    .box_plan h3 {
+        font-size: 26px;
+    }
+
+    .box_plan p {
+        font-size: 14px;
+    }
+
+    .credit_card_bx ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .credit_card_bx ul li {
+        margin-top: 15px;
+    }
+
+    .credit_card_bx h3 {
+        font-size: 18px;
+    }
+
+    .paym_card {
+        margin-top: 185px;
+    }
+
+    .credit_card_bx .grp_sect,
+    .bg_inner.bg_account .list_account {
+        flex-wrap: wrap;
+    }
+
+    .bg_inner.bg_account h5 {
+        font-size: 26px;
+    }
+
+    .inr_bnnr_section .banner_content h3 {
+        font-size: 26px;
+    }
+
+    .regist_wrapp .card_box .list_portfol {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profile_cover {
+        padding: 15px;
+        display: block;
+    }
+
+    .profile_cover .user_img {
+        width: 100%;
+    }
+
+    .profile_cover .cont_prf h3 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .profile_cover .cont_prf {
+        margin: 0;
+    }
+
+    .profile_cover .cont_prf h4 {
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+
+    .profile_cover .cont_prf p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .profile_cover .cont_prf .btn_grp .btn {
+        min-width: 100%;
+        margin-top: 8px;
+    }
+
+    .tab_prof ul li {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .tab_prof ul li a {
+        width: auto;
+        padding: 4px 12px;
+    }
+
+    .bg_inner.bg_account .list_account label {
+        margin-bottom: 15px;
+    }
+
+    .signup_page {
+        overflow: auto;
+    }
+
+    .card_bx {
+        padding: 15px;
+    }
+
+    .portfolio_details .protf_thumb {
+        grid-template-columns: auto;
+    }
+
+    .Portfolio_wrapp ul li h3 {
+        width: 100%;
+        font-size: 18px;
+        left: 67%;
+        transform: translateX(-50%);
+    }
+
+    .portfolio_details .big_prof {
+        margin-bottom: 15px;
+    }
+
+    header.header_top.bg_brd .navbar-toggler {
+        position: initial;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width:460px) {
+    .inr_bnnr_section .banner_content h3 {
+        font-size: 24px;
+    }
+
+    .inr_bnnr_section .banner_content p {
+        font-size: 14px;
+    }
+
+    .bg_inner.bg_account h5 {
+        font-size: 24px;
+    }
+
+    .footer_btm p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    footer.footer {
+        padding: 30px 0 15px;
+        margin-top: 50px;
+    }
+
+    footer.footer .footer_bx .heading_ft {
+        font-size: 18px;
+    }
+
+    .pay__bx:before {
+        width: 30px;
+        height: 30px;
+        right: -15px;
+    }
+
+    .pay__bx:after {
+        width: 30px;
+        height: 30px;
+        left: -15px;
+    }
+
+    .crd_details h3 {
+        font-size: 18px;
+    }
+
+    .Subscrip_sect .btn_grp_com .btn {
+        min-width: 100%;
+        margin: 0;
+    }
+
+    .credit_card_bx h3 {
+        font-size: 14px;
+    }
+
+    .credit_card_bx ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .invdi_sect .box_plan {}
+
+    .chat-mss ul li p {
+        font-size: 14px;
+    }
+
+    .history-tl-container ul.tl li {
+        margin-left: 100px;
+    }
+
+    .search_bar {
+        margin-top: 15px;
+    }
+
+    .tab_notif {
+        display: block;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .header_dash .head_title h3 {
+        font-size: 16px;
+    }
+
+    .heading_bx h3 {
+        font-size: 18px;
+    }
+
+    .bg_inner.bg_Create .form .frm_frog .otp_grp input.form-control {
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        text-align: center;
+    }
+
+    .bg_inner.bg_Create h5 {
+        font-size: 24px;
+    }
+
+    .cover_prof .cover_details h3 {
+        font-size: 18px;
+    }
+
+    .heading_admin h3 {
+        font-size: 16px;
+    }
+
+    .quot_frm,
+    .Portfolio_wrapp ul {
+        grid-template-columns: auto;
+    }
+
+    .custom_modal .modal-dialog .connect_popup>h3 {
+        font-size: 18px;
+    }
+
+    .progress_verti .progress_box .card_prog .progress_vertical {
+        width: 12px;
+    }
+
+    .dash_chat_list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+  

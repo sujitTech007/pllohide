@@ -1,0 +1,19 @@
+.header{
+    position: absolute;
+    width: 100%;
+    padding: 40px 0;
+}
+.header nav{
+    z-index: 999;
+    padding:15px 20px;
+    border-radius: 10px;
+}
+
+.header nav .nav-link{
+    font-size: 18px;
+    color: var(--black-color);
+    cursor: pointer;
+}
+.header nav .nav-link:hover{
+    color:var(--primary-color);
+}
