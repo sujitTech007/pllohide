@@ -3668,3 +3668,13 @@ button.btn.btnCancel {
   border-color: var(--primary-color);
   color: var(--white-color);
 }
+
+
+.policy-page ul{
+  list-style: disc;
+  padding-left: 10px;
+}
+.policy-page ul li{
+  list-style: disc;
+  padding: 2px 0;
+}
