@@ -3648,3 +3648,23 @@ button.btn.btnCancel {
     overflow: hidden;
 }
 
+
+.pagination-wrapper p.small.text-muted {
+    display: none;
+}
+.pagination-wrapper .pagination li .page-link {
+    padding: 5px 6px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #000;
+    height: 40px;
+    font-weight: 600;
+}
+.pagination-wrapper .pagination li.active .page-link{
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--white-color);
+}

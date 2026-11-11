@@ -65,6 +65,10 @@ Route::post('/register-update/store/{id}', [PagesController::class, 'registerUpd
 Route::get('/community', [PagesController::class, 'articleList'])->name('community');
 // Route::post('/quotations', [QuotationController::class, 'store'])->name('quotations.store');
 
+Route::get('/privacy-policy', [PagesController::class, 'privacyPolicy'])->name('privacy.policy');
+
+Route::get('/terms', [PagesController::class, 'terms'])->name('terms');
+
 // Chat routes
 Route::middleware('auth')->group(function () {
     Route::post('/chat/send', [ChatController::class, 'sendMessage'])->name('chat.send');

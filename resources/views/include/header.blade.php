@@ -85,10 +85,10 @@ z-index: 9999;
     </div>
 
     <header class="header">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg shadow-sm bg-white container">
+                <nav class="navbar navbar-expand-lg bg-white container">
                     <a class="navbar-brand" href="{{ url('/') }}">
                         <img src="{{ asset('assets/images/logo.png') }}" alt="PlloHide Logo" height="57">
                     </a>

@@ -41,7 +41,7 @@
                             <th>Phone </th>
                             <th>Location</th>
                             <th>Status</th>
-                            <!--<th>Action</th>-->
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -114,7 +114,7 @@
                     </tbody>
                 </table>
                 
-                <div class="d-flex justify-content-center mt-4">
+                <div class="d-flex justify-content-center mt-4 table_pagination">
                     {{ $designers->links() }}
                 </div>
                 
@@ -162,6 +162,7 @@
                         <th>Status</th>
                         <td id="view_status"></td>
                     </tr>
+
 
                 </table>
 

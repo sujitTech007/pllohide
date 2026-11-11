@@ -1,25 +1,5 @@
 @include('include.header')
-<style>
-    .pagination-wrapper .pagination {
-    gap: 8px;
-}
 
-.pagination .page-item .page-link {
-    border-radius: 6px;
-    padding: 8px 14px;
-    font-weight: 500;
-    color: #333;
-}
-
-.pagination .page-item.active .page-link {
-    background-color: #007569;
-    border-color: #007569;
-    color: #fff;
-}
-.text-muted{
-display: none;
-}
-</style>
 <section class="mainBanner">
         <div class="hero-banner">
             <img src="{{ asset('assets/images/family.png') }}" alt="">

@@ -107,6 +107,12 @@ class PagesController extends Controller
         // }
 
 
+
+
+
+
+
+        
         public function signUpSubmit(Request $request)
 {
     $role = session('selected_role');
@@ -195,7 +201,7 @@ class PagesController extends Controller
     // 🔹 Redirect by role
     if ($user->role == 1) {
         // Designer role – redirect to payment page
-        // Designer role � this is a new user payment flow
+        // Designer role � this is a new user payment flow
         session(['pending_registration_payment' => true]);
         return redirect()->route('subscribe.designer')
             ->with('success', 'Registration successful. Please complete the payment to continue.');
@@ -205,6 +211,18 @@ class PagesController extends Controller
             ->with('success', 'Registration successful. Update your profile.');
     }
 }
+
+
+
+    public function privacyPolicy()
+    {
+        return view('privacy-policy');
+    }
+
+    public function terms()
+    {
+        return view('terms');
+    }
 
 
 

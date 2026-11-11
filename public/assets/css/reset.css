@@ -131,6 +131,13 @@ a:focus {
     text-decoration: none;
 }
 
+.primary-text-color{
+    color: var(--primary-color);
+}
+.primary-bg-color{
+    background: var(--primary-color);
+}
+
 p {
     font-size: 1.8em;
     color: var(--gray-color);

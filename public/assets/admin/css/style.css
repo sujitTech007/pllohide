@@ -3522,3 +3522,31 @@ li.sub-menu-user.active {
 }
 
 
+
+.table_pagination p.small.text-muted {
+    font-size: 13px;
+    margin: 0 auto;
+    margin-right: 30px;
+    display: none;
+}
+
+.table_pagination p.small.text-muted {
+    display: none;
+}
+
+.table_pagination .pagination li .page-link {
+    padding: 5px 6px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #000;
+    height: 40px;
+    font-weight: 600;
+}
+.table_pagination .pagination li.active .page-link{
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--white-color);
+}

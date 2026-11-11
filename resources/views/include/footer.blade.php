@@ -76,9 +76,15 @@
         <div class="copyright-area bg-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="copyright-text text-center text-white">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="copyright-text text-start">
                             <p>@ 2026 Copyright PlloHide. All Rights Reserved</p>
+                        </div>
+                    </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="copyright-link text-end d-flex align-items-center justify-content-end primary-text-color gap-2 py-2">
+                            <a href="{{ route('privacy.policy') }}">Privacy Policy</a>  <a href="{{ route('terms') }}">Terms & Conditions</a>
+                            </div>
                         </div>
                     </div>
 
@@ -91,7 +97,7 @@
     <!-- Bootstrap JS -->
     <script src="{{ asset('/assets/admin/js/bootstrap.bundle.min.js') }}"></script>
         <script src="{{ asset('/assets/js/index.bundle.min.js') }}"></script>
-    <script src="{{ asset('script.js') }}"></script>
+    <script src="{{ asset('/assets/js/script.js') }}"></script>
        <script>
         baguetteBox.run('.tz-gallery');
     </script>

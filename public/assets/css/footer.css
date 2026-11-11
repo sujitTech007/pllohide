@@ -48,8 +48,20 @@ footer ul li a:hover{
 
 .copyright-text p{
     color: var(--primary-color);
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     padding: 10px;
     font-weight: 500;
+}
+.copyright-link a {
+    font-size: 14px;
+    color: var(--primary-color);
+    line-height: 1.2;
+}
+.copyright-link a:hover{
+    color: var(--black-color);
+}
+.copyright-link a:first-child{
+    border-right:2px solid var(--primary-color);
+    padding-right: 10px;
 }
